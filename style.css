@@ -1,0 +1,78 @@
+/* Entire Page */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/* Main Content */
+.main-content {
+    position: relative;
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: darkblue;
+}
+
+/* Element Selector */
+p {
+    font-size: 16px;
+}
+
+/* Class Selector */
+.intro-box {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 15px;
+    width: 300px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/* ID Selector */
+#main-heading {
+    text-align: center;
+    color: darkred;
+}
+
+/* Span Styling */
+.highlight {
+    color: red;
+    font-weight: bold;
+}
+
+/* Sticky Heading */
+.sticky-heading {
+    position: sticky;
+    top: 80px;
+    background-color: yellow;
+    padding: 10px;
+}
+
+/* Absolute Positioned Box */
+.important-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: orange;
+    padding: 10px;
+}
