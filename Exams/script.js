@@ -12,17 +12,17 @@ fetch("https://jsonplaceholder.typicode.com/users")
 .then(users=>{
     status.textContent="";
     users.forEach(user=>{
-        let row ='
+        let row =`
         <tr>
         <td>${user.Name}</td>
         <td>${user.Email}</td>
         <td>${user.address.street}</td>, ${user.address.street}</td>
         </tr>
-        ';
+        `;
         userData.innerHTML += row;
         
  });
 })
 .catch(error =>{
-    status.textContent= "failet to load data";
-});
+    status.textContent= "failet to"
+})
